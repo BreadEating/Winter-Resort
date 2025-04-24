@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alpine Haven | Gallery</title>
+
+  <link rel="icon" href="images/favicon.png" type="image/png">
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pDI6w1LWS...=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- CSS Collection -->
+  <link rel="stylesheet" href="css/collection.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo"><a href="index.html">Alpine Haven</a></div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="offerings.html"><i class="fas fa-bed"></i> Our Offerings</a></li>
+      <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+      <li><a href="support.html"><i class="fas fa-life-ring"></i> Support Services</a></li>
+      <li><a href="gallery.html" class="active"><i class="fas fa-image"></i> Gallery</a></li>
+      <li><a href="analytics.html"><i class="fas fa-chart-bar"></i> Analytics</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sub-Hero Banner -->
+  <header class="sub-hero">
+    <div class="sub-hero-overlay">
+      <h2>Gallery</h2>
+    </div>
+  </header>
+
+  <main>
+    <!-- Photo Gallery -->
+    <section class="gallery-grid">
+      <figure class="gallery-item small">
+        <img src="images/standard-bedroom.jpg" alt="Standard Chalet Bedroom">
+        <figcaption>Standard Chalet Bedroom</figcaption>
+      </figure>
+      <figure class="gallery-item small">
+        <img src="images/standard-bathroom.jpg" alt="Standard Chalet Bathroom">
+        <figcaption>Standard Chalet Bathroom</figcaption>
+      </figure>
+      <figure class="gallery-item large">
+        <img src="images/deluxe-bedroom.jpg" alt="Deluxe Chalet Bedroom">
+        <figcaption>Deluxe Chalet Bedroom</figcaption>
+      </figure>
+      <figure class="gallery-item large">
+        <img src="images/deluxe-bathroom.jpg" alt="Deluxe Chalet Bathroom">
+        <figcaption>Deluxe Chalet Bathroom</figcaption>
+      </figure>
+      <figure class="gallery-item small">
+        <img src="images/cablecar.jpg" alt="Cable Car">
+        <figcaption>Cable Car</figcaption>
+      </figure>
+      <figure class="gallery-item small">
+        <img src="images/nightview.jpg" alt="Night View">
+        <figcaption>Night View of the Resort</figcaption>
+      </figure>
+      <figure class="gallery-item large">
+        <img src="images/lobby.jpg" alt="Lobby">
+        <figcaption>Main Lobby</figcaption>
+      </figure>
+      <figure class="gallery-item large">
+        <img src="images/skiarea.jpg" alt="Ski Area">
+        <figcaption>Ski Area of the Resort</figcaption>
+      </figure>
+    </section>
+
+    <!-- Video Tour -->
+    <section class="gallery-video">
+      <header>
+        <h3>Resort Video Tour</h3>
+      </header>
+      <figure>
+        <video controls width="100%">
+          <source src="media/resort.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <figcaption>Explore Alpine Haven with this quick overview.</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Alpine Haven. All rights reserved.</p>
+    <p><a href="#top">Back to top</a></p>
+  </footer>
+
+  <!-- Main JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>

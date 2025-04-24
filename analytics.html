@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alpine Haven | Analytics</title>
+
+  <link rel="icon" href="images/favicon.png" type="image/png">
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pDI6w1LWS...=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- CSS Collection -->
+  <link rel="stylesheet" href="css/collection.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo"><a href="index.html">Alpine Haven</a></div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="offerings.html"><i class="fas fa-bed"></i> Our Offerings</a></li>
+      <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+      <li><a href="support.html"><i class="fas fa-life-ring"></i> Support Services</a></li>
+      <li><a href="gallery.html"><i class="fas fa-image"></i> Gallery</a></li>
+      <li><a href="analytics.html" class="active"><i class="fas fa-chart-bar"></i> Analytics</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sub-Hero Banner -->
+  <header class="sub-hero">
+    <div class="sub-hero-overlay">
+      <h2>Analytics & Insights</h2>
+    </div>
+  </header>
+
+  <main>
+    <!-- SVG Chart Section -->
+    <section class="section analytics-chart">
+      <header>
+        <h3>Monthly Occupancy %</h3>
+      </header>
+      <svg id="analyticsChart"></svg>
+      <script src="js/script.js"></script>
+      <script src="js/chart.js"></script>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Alpine Haven. All rights reserved.</p>
+    <p><a href="#top">Back to top</a></p>
+  </footer>
+</body>
+</html>
