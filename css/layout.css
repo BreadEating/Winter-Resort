@@ -87,7 +87,7 @@
       display: none;
       flex-direction: column;
       position: absolute;
-      top: 100%; 
+      top: 10%; 
       left: 0;
       width: 100%;
       background: #FFFFFF;
@@ -101,5 +101,19 @@
       display: flex;
       max-height: 500px;
     }
-    .nav-toggle { display: block; }
+    .nav-toggle { 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.75rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .hamburger,
+    .hamburger::before,
+    .hamburger::after {
+      pointer-events: none;
+    }
   }
