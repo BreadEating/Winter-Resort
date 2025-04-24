@@ -1,0 +1,30 @@
+.offerings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+  }
+  
+  .offerings-table th,
+  .offerings-table td {
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .offerings-table tbody tr:nth-child(odd) {
+    background-color: #FFFFFF;
+  }
+  
+  .offerings-table tbody tr:nth-child(even) {
+    background-color: #F3F4F6;
+  }
+  
+  .offerings-table th {
+    border-bottom: 2px solid #E5E7EB;
+  }
+  
+  /* remove default borders */
+  .offerings-table,
+  .offerings-table th,
+  .offerings-table td {
+    border: none;
+  }

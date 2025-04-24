@@ -1,0 +1,45 @@
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  align-items: flex-start;
+  }
+
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  }
+
+  .gallery-item.large {
+    flex: 2 1 30%;
+  }
+  .gallery-item.small {
+    flex: 1 1 20%;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .gallery-item figcaption {
+    position: static;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+    font-size: 0.9rem;
+    text-align: center;
+  }

@@ -1,0 +1,58 @@
+.service-cards {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .service-card {
+    flex: 1 1 200px;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    background: #FFFFFF;
+  }
+  
+  .service-card h4 {
+    margin: 0.5rem 0;
+  }
+  
+  .service-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .service-card ul li {
+    margin: 0.25rem 0;
+  }
+  
+  .support-services {
+    position: relative;
+    background: url('../images/support-bg.jpg') center/cover no-repeat;
+    background-size: cover;
+    padding: 2rem 1rem;      
+  }
+  
+ 
+  
+  .support-services > header,
+  .support-services .service-cards {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .service-card {
+    background-color: #FFFFFF;
+  }
+
+  .nearby-services .content-block {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }

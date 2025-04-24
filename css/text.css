@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoCondensed';
+  src: url('../fonts/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  color: #1F2937;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.logo a,
+.navbar a {
+  font-family: 'RobotoCondensed', sans-serif;
+}
+.btn {
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.logo a {
+  font-size: 1.75rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: .5rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+  font-size: 2.0rem;
+  margin-bottom: .5rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: .5rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

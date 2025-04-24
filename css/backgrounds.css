@@ -1,0 +1,45 @@
+body {
+    background-color: #F9FAFB;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.hero {
+    background-image: url('../images/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-overlay {
+    background: rgba(255,255,255,0.8);
+}
+
+.btn {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #2563EB;
+}
+
+header.sub-hero {
+    background-color: #F3F4F6;
+    background-image: none;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #E5E7EB;
+  }
+
+  header.sub-hero h2 {
+    color: #1F2937;
+    font-size: 2rem;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }

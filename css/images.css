@@ -1,0 +1,16 @@
+figure img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+figure img:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+.offerings-table img {
+    width: 200px;
+    height: auto;
+    border-radius: 4px;
+}
