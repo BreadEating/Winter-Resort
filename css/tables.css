@@ -1,6 +1,8 @@
 .offerings-table {
     width: 100%;
+    table-layout: auto;
     border-collapse: collapse;
+    min-width: 600px;
     margin: 2rem 0;
   }
   
@@ -22,9 +24,13 @@
     border-bottom: 2px solid #E5E7EB;
   }
   
-  /* remove default borders */
   .offerings-table,
   .offerings-table th,
   .offerings-table td {
     border: none;
+  }
+
+  .table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; 
   }

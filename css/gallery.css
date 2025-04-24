@@ -43,3 +43,19 @@
     font-size: 0.9rem;
     text-align: center;
   }
+
+  @media (max-width: 600px) {
+    .gallery-grid {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .gallery-item {
+      flex: 1 1 100%;
+    }
+    .gallery-item figcaption {
+      font-size: 1rem;
+      padding: 0.75rem;
+      white-space: normal;
+    }
+  }
+  
